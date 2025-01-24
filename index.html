@@ -4,16 +4,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All About Myself</title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        
+        main {
+            margin-top: 40px;
+        }
+
+        article {
+            margin-bottom: 40px;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 2em;
+            color: #003366;
+            margin-bottom: 10px;
+        }
+
+        
+        figure {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        figure img {
+            width: 250px; 
+            height: auto; 
+            border-radius: 8px;
+        }
+
+        figcaption {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+       
+        p {
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        a {
+            color: #003366;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #ffcc00;
+        }
+
+       
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.5em;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            main {
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+    </style>
 </head>
 <body>
     <header id="top">
-        <h1 style="text-align: center; color: navy;">ABOUT MY SELF</h1>
+        <h1 style="text-align: center; color: rgb(0, 0, 5);">ABOUT MY SELF</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#about">About Myself</a></li>
-                <li><a href="Lifestory">My Lifestory</a></li>
-                <li><a href="#contact">Hobbies</a></li>
+                <li><a href="#lifestory">Lifestory</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#favorite">Favorite</a></li>
+                <li><a href="#friends">Friends</a></li>
+                
             </ul>
         </nav>
     </header>
@@ -24,9 +178,8 @@
         <article id="about">
             <section id="about_myself">
                 <h2>About Myself</h2>
-                
                 <figure>
-                    <img src="me.jpg" alt="Store Logo" height="250">
+                    <img src="me.jpg" alt="about me" height="250">
                     <figcaption style="font-weight: bold;">
                         
                     </figcaption>
@@ -43,20 +196,22 @@
                         
                         One thing I’ve always loved about playing the guitar is improvising solos. For me, it’s not just about sticking to a script but creating something raw and real in the moment. Every time I perform, I try to bring something new to the stage, something that’s uniquely mine. I’ve been lucky to play at big events over the years, and the energy from the crowd always pushes me to give it my all. There’s nothing quite like the rush of performing live and seeing people react to my music.
                         
-                        Looking ahead, I have big goals. I’m going to become a famous artist—someone who inspires others the way my dad inspired me. Music is my passion, my voice, and my way of connecting with the world. With every chord I play and every solo I improvise, I’m building towards that dream, and I can’t wait to see where it takes me.</p>
+                        Looking ahead, I have big goals. I’m going to become a famous artist—someone who inspires others the way my dad inspired me. Music is my passion, my voice, and my way of connecting with the world. With every chord I play and every solo I improvise, I’m building towards that dream, and I can’t wait to see where it takes me.
+                    </p>
                         <hr>
                 </figure>
-
             </section>
+            </article>
 
-            <section id="Lifestory">
+  <article id="lifestory">
+            <section>
                 <h2>My Lifestory</h2>
                 <figure>
                     <img src="childhood.jpg" alt="childhood" height="250">
-                    <figcaption style="font-weight: bold;">
-                        CHILDHOOD
-                    </figcaption>
-                    <p>
+                    <figcaption style="font-weight: bold;">CHILDHOOD</figcaption>
+            <p>
+</article>
+            
                        
 
 My dad’s music was the soundtrack of my early years. Whether it was the soft strumming of his guitar late at night or the lively jam sessions he hosted with his friends, there was always music in our home. He’d let me sit in on those sessions, teaching me to appreciate the magic of a well-played chord and the beauty of improvisation. Sometimes, he’d even hand me an instrument and encourage me to play along, no matter how clumsy my attempts were. Those moments weren’t just fun—they taught me to be creative, to take risks, and to enjoy the process of learning.
@@ -65,18 +220,18 @@ While my dad was busy with his music, my mom was the one who kept everything run
                     </p>
                 </figure>
             </section>
-        </article>
+        
 
         <hr>
 
-        <article id="teenage">
+       
             <section>
                 <h2></h2>
                 <figure>
                     <img src="about.jpg" alt="height="200>
                     <figcaption style="font-weight: bold;">TEENAGE</figcaption>
                     <p>
-                        
+                    
                         
                         In My Teenage Years
                         
@@ -89,6 +244,8 @@ While my dad was busy with his music, my mom was the one who kept everything run
                         <hr>
                 </figure>
             </section>
+        
+        
 
             <section>
                 <h2></h2>
@@ -102,7 +259,9 @@ While my dad was busy with his music, my mom was the one who kept everything run
                         <hr>
                 </figure>
             </section>
+</article>
 
+<article id="hobbies"></article>
             <section>
                 <h2>HOBBIES</h2>
                 <figure>
@@ -120,8 +279,9 @@ While my dad was busy with his music, my mom was the one who kept everything run
                     <p>My outdoor hobbies are an essential part of my life, and they bring me so much joy and fulfillment. One of my main passions is playing basketball on the court. Whether it’s a friendly pickup game or a more competitive match, I love the energy and intensity of the game. The feeling of running up and down the court, making plays, and working with teammates is something that keeps me coming back for more. In addition to basketball, I also enjoy practicing guitar outdoors when the weather is nice. Playing outside, surrounded by nature, gives me a sense of peace and inspiration. Both of these hobbies help me stay active, challenge myself, and connect with others in meaningful ways.</p>
                 </figure>
             </section>
+        </article>
 <hr>
-
+<article id="favorite">
             <section>
                 <h2>FAVORITE</h2>
                 <figure>
@@ -136,40 +296,52 @@ While my dad was busy with his music, my mom was the one who kept everything run
                             <figcaption style="font-weight: bold;">ARTIST</figcaption>
                             <p>Jomal Linao is an incredible artist, known for his unique style and the way he blends emotion with his music. He has a raw, authentic sound that connects deeply with listeners, especially those who appreciate soulful melodies and real-life stories. His ability to convey personal experiences and emotions through music is something that many fans admire.
                             If you’re drawn to his music, it could be because his work resonates with your own experiences or emotions, creating a sense of connection. Maybe his melodies have a certain depth that speaks to you, or his lyrics capture a feeling you’ve had, making his music feel personal and relatable.</p>
+                            <hr>
                     
                 </figure>
             </section>
+</article>
+
+<article id="friends">
+            <section>
+                <h2>FRIENDS</h2>
+                <figure>
+                    <img src="close friends.jpg" alt="close friends">
+                    <figcaption style="font-weight: bold;">CLOSE FRIENDS</figcaption>
+                    <p>They are my close friends—the ones who stand by me in all my moments, from the wildest adventures to the nerve-wracking hours in the guidance office. They’re the ones who laugh with me even when we’re caught, who whisper jokes to lighten the mood while we wait for the lecture we know is coming.
+
+                        They’re not just there for the fun; they’re there for the aftermath too, helping me own up to my mistakes and figure out how to move forward. They make even the craziest situations feel less heavy, turning trouble into stories we’ll laugh about for years. With them, life is unpredictable, messy, and absolutely worth every second. I miss you all so much, (BROTHER HOOD)
+                    </p>
+
+
+                    <section>
+                        <h2></h2>
+                        <figure>
+                            <img src="college friends.jpg" alt="college friends">
+                            <figcaption style="font-weight: bold;">COLLEGE FRIENDS</figcaption>
+                            <p>They are my close friends and also my bandmates—the ones who make every moment feel special, both on stage and off. One of them is even my college teacher, which makes our bond even more unique. Outside the classroom, they’re not just a mentor but also a collaborator and a friend who shares the same passion for music.
+
+                                Our friendship goes beyond the usual boundaries; it’s built on mutual respect, creativity, and a shared love for what we do. Whether we’re rehearsing, performing, or just hanging out, they remind me that music is about connection—about finding people who inspire you, guide you, and make the journey worthwhile.</p>
+
+
+                
+                              </figure>
+                            </section>
 
             
-        </article>
+                         </article>
 
 
         <hr>
 
-        <article id="contact">
-            <section>
-                <h2>Contact Us</h2>
-                <p>Reach us out wiht these following contact deatails...</p>
-                <ul>
-                    <li>
-                        Landline: 343-5671
-                    </li>
-                    <li>
-                        Phone Number: 0910345678
-                    </li>
-                    <li>
-                        Email: <a href="mailto:marlon@gmail.com">marlon@gmail.com</a>
-                    </li>
-                </ul>
-            </section>
-        </article>
+      
 
     </main>
 
     <hr>
 
     <footer style="text-align: center;">
-        <p  style="font-weight: bold;">All Rights Reserved &copy; MJ Timogan 2024</p>
+        <p  style="font-weight: bold;">All Rights Reserved &copy; Zildzian Entero 2024</p>
         <a href="#top" style="text-align: center;">Back to Top</a>
     </footer>
 </body>
